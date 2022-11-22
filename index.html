@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bio Material 3D Printing Slicer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
+
+	<!--
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE
+	DESIGNED & DEVELOPED by FreeHTML5.co
+
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html">3DMat<span>.</span></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="">3D Printer</a></li>
+							<li class="has-dropdown">
+								<a href="">Materials</a>
+								<ul class="dropdown">
+									<li><a href="#">Calcium Carbonate</a></li>
+									<li><a href="#">Cellulose</a></li>
+									<li><a href="#">Alginate</a></li>
+								</ul>
+							</li>
+							<li class="btn-cta"><a href="#slicer"><span>Slicer</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1>Create new materials and designs</h1>
+							<h2>Free 3d printing slicer online </h2>
+							<p><a class="btn btn-primary btn-lg btn-demo" href="#slicer"></i>Slicer</a> <a class="btn btn-primary btn-lg btn-learn">Recipes</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		 <div class="img-bg">
+    <img src="images/biobackground.jpg" style="width:100%;  ">  <!--height:100vh-->
+  </div>
+	</header>
+
+
+
+	<div id="fh5co-features">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-rocket"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Upload a model</h3>
+								<p>Import the geometry you want to slice first</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-wrench"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Configure you settings</h3>
+								<p>Check the machine dimensions and slicing settings do you want</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-file-text"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Download</h3>
+								<p>Click on the box with an arrow to download your Gcode</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4 animate-box">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="slicer">
+	<iframe id="sdv-iframe" width="100%" height="800" src="https://www.shapediver.com/app/iframe?modelViewUrl=https%3A%2F%2Fsdeuc1.eu-central-1.shapediver.com&ticket=c007e525ce2c7f427bfda780ec03bf48d8e78579bc8664e679349ee6f978ad0d1f234d0832ea13190425c8218808b5c9155b4ad9d9cc7a8267c0ea498f3af0aef277b86ec37311920fbb9261e88757f20dfde051205dbf34f6f442a6a84c0ed194db3458d98745-b41109a5d3392fb4cceb8bec5e4ab779&primaryColor=%2300A6A7&secondaryColor=%2300A6A7&surfaceColor=%23FFFFFF&backgroundColor=%23F8F8F8&showControls=1&showZoomButton=1&showFullscreenButton=1&logo=" referrerpolicy="origin" allowfullscreen style="overflow-x: hidden; overflow-y: hidden; border-width: 0;">
+    <p>Your browser does not support iframes.</p>
+</iframe>
+	</div>
+
+
+	<div id="fh5co-slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 animate-box">
+					<div class="heading">
+						<h2>Test our latest collection of printable materials</h2>
+						<p>We have formulated some bio based recipes</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-push-1 animate-box">
+					<aside id="fh5co-hero">
+					<div class="flexslider">
+						<ul class="slides">
+					   	<li style="background-image: url(images/samples.png);">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+						   				<div class="slider-text-inner">
+						   					<div class="desc">
+													<h2>Amazing Orange peel</h2>
+													<p>This recipe is amazing and is yet to be published</p>
+						   					</div>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>
+					   	<li style="background-image: url(images/samples.png);">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+						   				<div class="slider-text-inner">
+						   					<div class="desc">
+													<h2>Hard Calcium Carbonate</h2>
+													<p>This recipe is made from eggshell or seashell from oysters</p>
+						   					</div>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>
+
+					  	</ul>
+				  	</div>
+				</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Recent Post</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/blog-1.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Feb. 15th 2016</span>
+							<h3><a href="#">Photoshoot On The Street</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>1,308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/blog-2.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Feb. 15th 2016</span>
+							<h3><a href="#">Surfing at Philippines</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>1,308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/blog-3.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Feb. 15th 2016</span>
+							<h3><a href="#">Focus On Uderwater</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>1,308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-started">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>W.I.P.</h2>
+					<p>This page is still under construction is you want to know what more is to come</p>
+					<p><a href="https://www.food4rhino.com/en/app/mamba" class="btn btn-default btn-lg">Click here</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2022 Fab Lab Barcelona</small>
+						<small class="block">Html by FreeHTML5.co</a>Designed by:<a href="http://eduardochamorro.github.io/beansreels/index.html" target="_blank">Eduardo Chamorro</a></small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://twitter.com/fablabbcn?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/FabLab.BCN/"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/fab-lab-barcelona/?originalSubdomain=es"><i class="icon-linkedin"></i></a></li>
+
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>

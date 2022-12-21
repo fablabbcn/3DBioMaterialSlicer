@@ -144,6 +144,8 @@ Proceso:
 > Place a sticky mixture into a bowl and start adding calcium carbonate spoon by spoon.
 > Mix the the mixture with your hands to test the consistency of the material.
 
+![](img/material.png)
+
 ## Html template
 
 Está página se basa en el template [AIR](https://freehtml5.co/air-free-html5-bootstrap-template-for-portfolio-and-landing-pages/) provisto por 2016 [Free HTML5](https://freehtml5.co/). All Rights Reserved. Demo Images: [Unsplash](https://unsplash.co/)

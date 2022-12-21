@@ -9,6 +9,8 @@ Repositorio para el proyecto AEI-CLAB. Entregable de FabLab Barcelona conteniend
 El objetivo de este proyecto es promover el uso de la tecnología maker y la impresión 3D en el ámbito educativo, utilizando materiales sostenibles y biocompatibles como la pasta de biomateriales.
 La impresión 3D es una técnica de fabricación aditiva que permite la creación de objetos tridimensionales a partir de un modelo digital. Esta tecnología está revolucionando diversos campos, desde la industria hasta la medicina y la educación.
 
+![](img/logo.jpg)
+
 El uso de la impresión 3D en la educación permite a los estudiantes desarrollar habilidades técnicas y creativas, así como comprender conceptos científicos y tecnológicos de manera práctica y amena. Además, la utilización de biomateriales en la impresión 3D contribuye a la sostenibilidad y al desarrollo de soluciones innovadoras y responsables con el medio ambiente.
 Este proyecto incluye talleres y actividades prácticas dirigidos a estudiantes de nivel secundario y universitario, en los que se enseñan los fundamentos de la impresión 3D y se explorarán las posibilidades de la pasta de biomateriales como material de impresión. Los participantes tendrán la oportunidad de diseñar y fabricar sus propios objetos utilizando esta tecnología, fomentando así su creatividad e innovación.
 Esperamos que este proyecto contribuya a la formación de una nueva generación de jóvenes comprometidos con la sostenibilidad y la tecnología, y que promueva el uso de la impresión 3D como herramienta educativa y de innovación.
@@ -42,6 +44,105 @@ Este repositorio contiene:
 
 ![](img/materials.jpg)
 
+### Receta 01. Alginato de sodio & CMC Celulosa
+
+        Materiales:
+        agua 200ml
+        Alginato de sodio 8 g
+        CMC Celulosa 12,5g
+        Glicerina 10 g
+        Harina 85 g
+        Cáscaras de naranja 30 g
+
+        Instrumentos:
+        batidora
+        Escala digital
+
+        El secado:
+        Tiempo de trabajo no limitado
+        Tiempo de secado 7 días
+        lugar natural
+
+Proceso:
+> Mezcle el alginato de sodio y el agua con la batidora de mano en un vaso de plástico.
+> Agregue celulosa CMC y glicerol, mezcle todo lentamente para evitar burbujas de aire.
+> Colocar una mezcla pegajosa en un bol y empezar a añadir cuchara a cuchara las pieles de naranja.
+> Al final mezclar con harina para espesar el paté.
+> Mezcle la mezcla con las manos para probar la consistencia del material.
+
+### Receta 02. Alginato de sodio & Carbonato de sodio
+
+        Materiales:
+        Agua 23 % - 115gr
+        Alginato de sodio 0,5 % - 2,5gr
+        Goma guar 2 % - 10gr
+        Carbonato de sodio 70 % - 350gr
+        Glucosa 5 % - 25gr
+
+        Instrumentos:
+        batidora
+        Escala digital
+
+        El secado:
+        Tiempo de trabajo no limitado
+        Tiempo de secado 7 días
+        lugar natural
+
+Proceso:
+> Mezcle el alginato de sodio y el agua con la batidora de mano en un vaso de plástico.
+> Agregue la goma guar y la miel, mezcle todo lentamente para evitar burbujas de aire.
+> Colocar una mezcla pegajosa en un bol y empezar a añadir carbonato de calcio cuchara a cuchara.
+> Mezcle la mezcla con las manos para probar la consistencia del material.
+
+### Receta 03. Caseína
+
+        Materiales:
+        Leche 240ml
+        Vinagre 60ml
+        Goma xantana 10 g
+        Relleno 30 g
+
+        Herramientas:
+        Licuadora
+        Escala digital
+        Estufa de cocina
+
+        El secado:
+        Tiempo de trabajo no limitado
+        Tiempo de secado 7 días
+        lugar natural
+
+Proceso:
+> Precalentar la leche a fuego medio y seguir removiendo todo el tiempo.
+> Agregue vinagre muy lentamente, la leche comenzará a cuajar.
+> Retire el exceso de agua a través de un colador de malla.
+> Mezcle la goma xantana y la caseína con la batidora de mano en un vaso de plástico lentamente para evitar burbujas de aire.
+> Colocar una mezcla pegajosa en un bol y empezar a añadir el relleno cuchara a cuchara.
+> Mezcle la mezcla con las manos para probar la consistencia del material.
+
+### Receta 04. Agar agar y Carbonato de sodio
+
+        Materiales:
+        agua 200ml
+        Agar agar 7,5 g
+        Goma xantana 8g
+        Carbonato de sodio 60 g
+        glucosa 15 g
+
+        Instrumentos:
+        batidora
+        Escala digital
+
+        El secado:
+        Tiempo de trabajo no limitado
+        Tiempo de secado 7 días
+        lugar natural
+
+Proceso:
+> Blend xanthan gum and water with the hand blender in a plastic cup.
+> Add agar agar and honey blend them all together.
+> Place a sticky mixture into a bowl and start adding calcium carbonate spoon by spoon.
+> Mix the the mixture with your hands to test the consistency of the material.
 
 ## Html template
 

@@ -1,5 +1,7 @@
 # AEI-CLAB Bio Material Slicer
 
+[ACCESO A WEB SLICER ONLINE](https://fablabbcn.github.io/aei-3d-bio-material-slicer/).
+
 Repositorio para el proyecto AEI-CLAB. Entregable de FabLab Barcelona conteniendo la página web que permite hacer slicing para impresión 3d de forma simplicada en el navegador [LINK A WEB SLICER](https://fablabbcn.github.io/aei-3d-bio-material-slicer/).
 
 ![](img/slicer.jpg)

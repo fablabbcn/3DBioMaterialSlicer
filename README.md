@@ -35,10 +35,12 @@ Para configurar su archivo, necesita modificar algunos parámetros para ajustarl
 - En caso de que la impresión no sea correcta, ajuste los valores de flow para compensar sobre o infra extrusión.
 
 ## Contenido repositorio
+
 Este repositorio contiene:
 
 - Página web pública con slicer interactivo [link](https://fablabbcn.github.io/aei-3d-bio-material-slicer/)
-- Archivo base de grasshopper que permite implementar el script en la plataforma ShapeDiver [link](PastePrinter_machine_extruder_Definitions/fablabbcn_0.def.json)
+- Archivo base de grasshopper que permite implementar el script en la plataforma ShapeDiver rhino6 [link](resources/Mamba-ShapeDiverEdition2.2-RHINO6.gh)
+- Archivo base de grasshopper que permite implementar el script en la plataforma ShapeDiver rhino7 [link](resources/Mamba-ShapeDiverEdition2.2-RHINO7.gh)
 - Plantilla base sobre la que se basa la página web [html template](template-base)
 - Recetas básicas para hacer biomateriales para impresión 3D
 
